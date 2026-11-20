@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.willowaccessories.glass"
@@ -23,6 +23,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "owner": "agentbyumer"
+    "owner": "agentbyumer",
+    "scheme": "willowglass",
+    "plugins": [
+      "expo-router"
+    ],
+    "splash": {
+      "backgroundColor": "#020617"
+    }
   }
 }
